@@ -1,6 +1,6 @@
-### Creando un Traductor con Python y Django
+### Select Multiple Dinamico con Python y Django
 
-##### El proyecto "Traductor Multilingüe" busca crear una aplicación web que permita a los usuarios traducir texto entre varios idiomas de manera rápida y sencilla. Utilizando el poder de Python y el marco de desarrollo web Django, este proyecto ofrece una solución eficiente y accesible para las necesidades de traducción de los usuarios.
+##### El proyecto utilizará Python y Django para crear un sistema de filtrado que permitirá a los usuarios seleccionar departamentos y municipios de Colombia, así como zonas de interés dentro de cada municipio. Usando una interfaz amigable, los usuarios podrán explorar y encontrar información relevante sobre diferentes áreas geográficas del país de manera eficiente y rápida.
 
 1.  Crear un entorno virtual, hay muchas formas
 
@@ -98,7 +98,7 @@
 
 #### Resultado final
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/traductor-con-python.png)
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/select-dinamico-con-python-django.png)
 
 ### Expresiones de Gratitud 🎁
 

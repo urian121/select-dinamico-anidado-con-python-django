@@ -21,6 +21,12 @@ const filtrarMunicipios = async (idDepartamento) => {
       let selectMunicipio = document.querySelector("#Municipios");
       selectMunicipio.innerHTML = "";
 
+      // Crea una opción por defecto
+      const defaultOption = document.createElement("option");
+      defaultOption.value = "";
+      defaultOption.text = "Seleccione";
+      selectMunicipio.appendChild(defaultOption);
+
       // Itera sobre la data para agregar los municipios al select
       data.data.forEach((item) => {
         const option = document.createElement("option");
@@ -54,7 +60,6 @@ const filtrarZonas = async (idMunicipio) => {
 
     console.log(response);
     const { data, status } = response;
-    console.log(data.data);
 
     if (status == 200) {
       let selectZona = document.querySelector("#zonas");
