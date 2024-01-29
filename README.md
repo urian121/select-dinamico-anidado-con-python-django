@@ -92,10 +92,9 @@
 
         pip install -r requirements.txt
 
-16. Información de Paquete
-    https://pypi.org/project/deep-translator/
+16. Correr aplicación en un puerto en especifico
 
-###### El paquete deep-translator de Python. Este paquete proporciona una interfaz para traducir texto utilizando varios servicios de traducción en línea, como Google Translate, Microsoft Translator, y otros.
+        python manage.py runserver 0:8080
 
 #### Resultado final
 
