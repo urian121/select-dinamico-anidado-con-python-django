@@ -69,10 +69,9 @@
         from . import views
 
                 urlpatterns = [
-                        path('', views.inicio, name='inicio'),
-                        path('registrar_empleado/', views.registrar_empleado,
-                                name='registrar_empleado'),
-                        path('empleados/', views.listar_empleados, name='listar_empleados'),
+                        path('', inicio, name='inicio'),
+                        path('filtrar-municipios/', filtrar_municipios, name='filtrar_municipios'),
+                        path('filtrar-zonas/', filtrar_zonas, name='filtrar_zonas'),
                 ]
 
 12. Conectar las URLS de mi aplicación con el projecto, para esto vamos al archivo uls.py del projecto
@@ -80,10 +79,10 @@
 
         urlpatterns = [
                 path('admin/', admin.site.urls),
-                path("", include('empleados.urls'))
+                path('', include('select_dinamico.urls')),
         ]
 
-13. Crear la carpeta 'templates' dentro de la aplicación donde estarán mis archivos.html
+13. Crear la carpeta 'templates' dentro de la aplicación donde estarán mis index.html
 
 14. Crear la carpeta 'static' dentro de mi aplicacion, aqui estaran archivos
     estaticos (css, js, imagenes, etc..)
