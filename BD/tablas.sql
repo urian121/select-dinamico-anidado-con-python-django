@@ -89,7 +89,7 @@ VALUES
 	(28,'Club Campestre',8),
 	(29,'Parque de la Vida',8),
 	(30,'Barrio El Prado',9),
-	(31,'Puerto Colombia:',9),
+	(31,'Puerto Colombia',9),
 	(32,'Centro de Soledad',10),
 	(33,'Parque Bolívar',10),
 	(34,'El Hipódromo',10),
