@@ -21,6 +21,9 @@ const filtrarMunicipios = async (idDepartamento) => {
       let selectMunicipio = document.querySelector("#Municipios");
       selectMunicipio.innerHTML = "";
 
+      let zonas = document.querySelector("#zonas");
+      zonas.innerHTML = "";
+
       // Crea una opción por defecto
       const defaultOption = document.createElement("option");
       defaultOption.value = "";

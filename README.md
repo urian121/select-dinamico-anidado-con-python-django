@@ -97,7 +97,7 @@
 
 #### Resultado final
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/select-dinamico-con-python-django.png)
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/select-multiple-dinamico-con-python.png)
 
 ### Expresiones de Gratitud 🎁
 
